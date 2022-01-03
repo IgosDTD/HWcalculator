@@ -30,6 +30,7 @@
         android:id="@+id/numberField"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -44,37 +45,26 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numberField">
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onNumberClick"
-            android:text="@string/c"
-            android:textColor="#00FFFF" />
 
         <Button
-            android:layout_width="10dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
-            android:text="@string/scobe"
-            android:textColor="#00FFFF" />
+            android:text="@string/c" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
-            android:text="@string/percent"
-            android:textColor="#00FFFF" />
+            android:text="@string/scobe" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
+            android:onClick="onNumberClick"
+            android:text="@string/percent" />
+
+        <Button
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onOperationClick"
-            android:text="@string/divide"
-            android:textColor="#00FFFF" />
+            android:text="@string/divide" />
     </LinearLayout>
 
     <LinearLayout
@@ -82,38 +72,30 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:textSize="@dimen/support_text_size"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstButtonPanel">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_1" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_2" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_3" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onOperationClick"
-            android:text="@string/multily"
-            android:textColor="#00FFFF" />
+            android:text="@string/multily" />
     </LinearLayout>
 
     <LinearLayout
@@ -126,33 +108,24 @@
         app:layout_constraintTop_toBottomOf="@+id/secondButtonPanel">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_4" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_5" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_6" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onOperationClick"
-            android:text="@string/minus"
-            android:textColor="#00FFFF" />
+            android:text="@string/minus" />
     </LinearLayout>
 
     <LinearLayout
@@ -160,35 +133,28 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:textSize="@dimen/support_text_size"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/thirdButtonPanel">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_7" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_8" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_9" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onOperationClick"
             android:text="@string/plus" />
     </LinearLayout>
@@ -203,35 +169,24 @@
         app:layout_constraintTop_toBottomOf="@+id/forthButtonPanel">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onOperationClick"
-            android:text="@string/pus_minus"
-            android:textColor="#00FFFF" />
+            android:text="@string/pus_minus" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_0" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onOperationClick"
-            android:text="@string/dot"
-            android:textColor="#00FFFF" />
+            android:text="@string/dot"/>
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onOperationClick"
-            android:text="@string/equals"
-            android:textColor="#00FFFF" />
+            android:text="@string/equals" />
 
     </LinearLayout>
 

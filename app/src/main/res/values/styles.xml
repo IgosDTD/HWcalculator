@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalcSupportButtonStyle">
+        <item name="android:backgroundTint">@color/color_support</item>
+        <item name="android:layout_width">@dimen/calc_button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/color_support_button</item>
+        <item name="android:textSize">@dimen/support_text_size</item>
+    </style>
+
+    <style name="CalcButtonStyle">
+        <item name="android:layout_width">@dimen/calc_button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">@color/button_num_color</item>
+        <item name="android:textSize">@dimen/support_text_size</item>
+
+    </style>
+
+</resources>
