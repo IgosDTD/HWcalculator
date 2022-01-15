@@ -9,7 +9,7 @@
     <string name="_7">7</string>
     <string name="_8">8</string>
     <string name="_9">9</string>
-    <string name="c">C</string>
+    <string name="C">C</string>
     <string name="scobe">()</string>
     <string name="percent">%</string>
     <string name="divide">/</string>
@@ -20,4 +20,6 @@
     <string name="pus_minus">+/-</string>
     <string name="_0">0</string>
     <string name="dot">.</string>
+    <string name="black_theme">Black theme</string>
+    <string name="white_theme">White theme</string>
 </resources>

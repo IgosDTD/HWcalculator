@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class BlackActivity extends AppCompatActivity {
 
 
     TextView resultField;
@@ -18,18 +18,16 @@ public class MainActivity extends AppCompatActivity {
     Double operand = null;
     String lastOperation = "=";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_black);
 
-
-        Button blackThemes = findViewById(R.id.blacktheme);
-        blackThemes.setOnClickListener(new View.OnClickListener() {
+        Button whiteThemes = findViewById(R.id.whitetheme);
+        whiteThemes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent runSettings = new Intent(MainActivity.this, BlackActivity.class);
+                Intent runSettings = new Intent(BlackActivity.this, MainActivity.class);
                 startActivity(runSettings);
             }
         });
