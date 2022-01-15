@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="8dp">
+    tools:context=".BlackActivity">
 
     <TextView
         android:id="@+id/resultField"
@@ -48,21 +48,21 @@
 
         <Button
             android:id="@+id/ac"
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:text="@string/C" />
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/scobe" />
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/percent" />
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onOperationClick"
             android:text="@string/divide" />
     </LinearLayout>
@@ -78,22 +78,22 @@
         app:layout_constraintTop_toBottomOf="@+id/firstButtonPanel">
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_1" />
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_2" />
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_3" />
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onOperationClick"
             android:text="@string/multily" />
     </LinearLayout>
@@ -108,22 +108,22 @@
         app:layout_constraintTop_toBottomOf="@+id/secondButtonPanel">
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_4" />
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_5" />
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_6" />
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onOperationClick"
             android:text="@string/minus" />
     </LinearLayout>
@@ -139,22 +139,22 @@
         app:layout_constraintTop_toBottomOf="@+id/thirdButtonPanel">
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_7" />
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_8" />
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_9" />
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onOperationClick"
             android:text="@string/plus" />
     </LinearLayout>
@@ -169,27 +169,26 @@
         app:layout_constraintTop_toBottomOf="@+id/forthButtonPanel">
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onOperationClick"
             android:text="@string/pus_minus" />
 
         <Button
-            style="@style/CalcButtonStyle"
+            style="@style/CalcSupportButtonStyle"
             android:onClick="onNumberClick"
             android:text="@string/_0" />
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onOperationClick"
             android:text="@string/dot"/>
 
         <Button
-            style="@style/CalcSupportButtonStyle"
+            style="@style/CalcButtonStyle"
             android:onClick="onOperationClick"
             android:text="@string/equals" />
 
     </LinearLayout>
-
     <LinearLayout
         android:id="@+id/supportButtonPanel"
         android:layout_width="0dp"
@@ -201,11 +200,10 @@
         app:layout_constraintTop_toBottomOf="@+id/forthButtonPanel">
 
         <Button
-            android:id="@+id/blacktheme"
+            android:id="@+id/whitetheme"
             style="@style/CalcSupportButtonStyle"
-            android:text="@string/black_theme" />
+            android:text="@string/white_theme" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
